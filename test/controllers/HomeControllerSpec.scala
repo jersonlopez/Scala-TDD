@@ -122,6 +122,8 @@ class HomeControllerSpec extends PlaySpec with Results {
       status(home) mustBe OK
       contentType(home) mustBe Some("text/html")
       contentAsString(home) must include ("Welcome to Play")
+
+      
     }
   }
 */
